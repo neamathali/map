@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continents and Countries Ranking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Continents and Countries</h1>
+	<p>by syed ali neamath ullah</p>
+        <input type="text" id="searchBar" placeholder="Search for a country...">
+    </header>
+    <nav>
+        <ul id="continent-list"></ul>
+    </nav>
+    <main id="country-info">
+        <h2>Select a continent to view its countries</h2>
+        <!-- Country details will be dynamically inserted here -->
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+<div id="countryModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modalCountryName"></h2>
+        <p id="modalDetails"></p>
+    </div>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1000000!2d-74.006!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259afc7f75253%3A0x9d0f2535e1b2fc!2sNew%20York%20City!5e0!3m2!1sen!2sus!4v1637022042364!5m2!1sen!2sus" 
+        width="990" height="990" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
